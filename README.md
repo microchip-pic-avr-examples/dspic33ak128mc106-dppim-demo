@@ -6,11 +6,13 @@
 
 ## dspic33ak128mc106 dppim demo
 
+ported the OS 
+
 samples adc pins on digital power development board, on TP5, 12, 13, 14
 
 TP5 controls the duty cycle
 
-pbv drivers only with uart no can fd as no can fd on AK
+pbv drivers -  only with uart -  no can fd as no can fd on AK
 
 
 ## Summary
