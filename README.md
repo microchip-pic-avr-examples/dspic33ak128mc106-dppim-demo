@@ -19,9 +19,12 @@ Board Image if any.
 
 ## Hardware Used
 
+dp-pim
+Digital power development board
 
 ## Setup
-
+### connections
+### how to program
 
 ## Operation
 
