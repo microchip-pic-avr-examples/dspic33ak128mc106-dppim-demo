@@ -6,7 +6,12 @@
 
 ## dspic33ak128mc106 dppim demo
 
-Board Image if any.
+samples adc pins on digital power development board, on TP5, 12, 13, 14
+
+TP5 controls the duty cycle
+
+pbv drivers only with uart no can fd as no can fd on AK
+
 
 ## Summary
 
@@ -28,5 +33,9 @@ Digital power development board
 
 ## Operation
 
+dfp : https://artifacts.microchip.com/artifactory/ivy/microchip/Microchip.dsPIC33AK-MC_DFP/1.0.34/Microchip.dsPIC33AK-MC_DFP-1.0.34.atpack
 
+IDE/IPE version : https://artifacts.microchip.com/ui/repos/tree/General/ivy/microchip/mplab-installer-jenkins/v6.20.06.7980.
+
+MCC : all official drivers. no dev/rc revisions
 
