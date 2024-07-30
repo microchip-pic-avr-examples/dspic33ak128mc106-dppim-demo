@@ -14,7 +14,7 @@
       },
       "compiler":{
          "name":"XCDSC",
-         "semverRange":"^3.0.0"
+         "semverRange":"^3.1.0"
       },
       "dfp":{
          "name":"dsPIC33AK-MC_DFP",
@@ -22,7 +22,7 @@
       },
 	  "configurator": {
          "name": "MCC",
-         "semverRange": ">=5.7.0"
+         "semverRange": ">=5.7.1"
       },
       "device":{
          "metaDataVersion":"1.0.0",
