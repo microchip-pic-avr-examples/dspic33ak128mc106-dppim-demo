@@ -2,24 +2,24 @@
 
 manifest_file_version: 1.0.0
 project: fw_mcc_ak
-creation_date: 2024-07-22T16:11:21.281+02:00[Europe/Berlin]
+creation_date: 2024-07-30T17:44:02.307+02:00[Europe/Berlin]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
 device_name: dsPIC33AK128MC106
 compiler: XCDSC 3.10
 mcc_version: 5.5.1
-mcc_core_version: 5.7.1
-content_manager_version: 5.0.1-b
+mcc_core_version: 5.8.0-2024_06_28_nightly
+content_manager_version: 5.0.1-06192024
 is_mcc_offline: false
 is_using_prerelease_versions: false
 mcc_content_registries: https://registry.npmjs.org/
 device_library: {library_class: com.microchip.mcc.melody.Library, name: Melody, version: 2.7.1}
-packs: {name: dsPIC33AK-MC_DFP, version: 1.0.34}
+packs: {name: N/A, version: N/A}
 modules:
-- {name: '@mchp-mcc/adc-driver', type: MELODY, version: 1.1.0-dev.3}
+- {name: '@mchp-mcc/adc-driver', type: MELODY, version: 1.0.1}
 - {name: '@mchp-mcc/dmt-16bit-driver', type: MELODY, version: 1.0.7}
-- {name: '@mchp-mcc/dspic33a-adc', type: MELODY, version: 1.1.0-dev.4}
+- {name: '@mchp-mcc/dspic33a-adc', type: MELODY, version: 1.0.1}
 - {name: '@mchp-mcc/dspic33a-clock', type: MELODY, version: 1.1.0}
 - {name: '@mchp-mcc/dspic33a-configuration-bits', type: MELODY, version: 1.0.1}
 - {name: '@mchp-mcc/dspic33a-dmt', type: MELODY, version: 1.0.1}
@@ -32,7 +32,7 @@ modules:
 - {name: '@mchp-mcc/dspic33a-uart', type: MELODY, version: 1.0.1}
 - {name: '@mchp-mcc/dspic33a-wdt', type: MELODY, version: 1.0.1}
 - {name: '@mchp-mcc/main-16bit-manager', type: MELODY, version: 1.1.3}
-- {name: '@mchp-mcc/pic-16bit', type: MELODY, version: 5.12.1}
+- {name: '@mchp-mcc/pic-16bit', type: MELODY, version: 5.12.2}
 - {name: '@mchp-mcc/pin-content-processor', type: MELODY, version: 3.8.0}
 - {name: '@mchp-mcc/pwm-hs-driver', type: MELODY, version: 2.2.3}
 - {name: '@mchp-mcc/timer', type: MELODY, version: 1.2.2}

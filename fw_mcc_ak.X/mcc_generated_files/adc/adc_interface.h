@@ -8,9 +8,9 @@
  * @brief      12-bit Analog-to-Digital Converters (ADC) that feature low conversion latency,
  *             high resolution and oversampling capabilities to improve performance.
  *
- * @skipline @version   PLIB Version 1.1.0-dev.4
+ * @skipline @version   PLIB Version 1.0.1
  *            
- * @skipline  Device : dsPIC33AK128MC106
+ * @skipline  Device : 
 */
 
 /*disclaimer*/

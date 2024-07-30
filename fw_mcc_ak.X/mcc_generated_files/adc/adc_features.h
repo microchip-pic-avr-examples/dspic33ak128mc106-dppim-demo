@@ -12,9 +12,9 @@
  *            The content in this file is strictly "read only" and should not be altered.
  *            
  *
- * @skipline @version   PLIB Version 1.1.0-dev.4
+ * @skipline @version   PLIB Version 1.0.1
  *            
- * @skipline  Device : dsPIC33AK128MC106
+ * @skipline  Device : 
 */
 
 /*disclaimer*/

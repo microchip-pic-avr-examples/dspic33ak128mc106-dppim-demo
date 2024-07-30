@@ -4,34 +4,37 @@
     <img alt="Microchip Logo." src="images/microchip_logo_black_red.png">
 </picture> 
 
-## dspic33ak128mc106 dppim demo
+## DSPIC33AK128MC106 DP-PIM DEMO
 
-ported the OS 
+The DSPIC33AK128MC106 Digital Power Plug-In Module (DP PIM) is a demonstration board that, in conjunction with different power boards, showcases the Microchip DSPIC33AK128MC106 16-Bit Digital Signal Controller (DSC) features.
+The DP PIM provides access to the DSPIC33AK128MC106 analog inputs, the Digital-to-Analog Converter (DAC) output, the Pulse-Width Modulation (PWM) outputs and the General Purpose Input and Output (GPIO) ports.
 
-samples adc pins on digital power development board, on TP5, 12, 13, 14
-
-TP5 controls the duty cycle
-
-pbv drivers -  only with uart -  no can fd as no can fd on AK
 
 
 ## Summary
 
-
-## Related Documentation
+This code example provides a basic peripheral setup for the ADC, PWM, UART and GPIOs using Microchip Code Configurator (MCC)
 
 
 ## Software Used 
 
+MCC
+Power Board Visualizer
 
 ## Hardware Used
 
 dp-pim
-Digital power development board
+Digital power development board (Part No. DM330029)
 
 ## Setup
-### connections
+
+Plug in the dp pim in the j1 slot of dp pim
+
+
+
 ### how to program
+
+can use ipe to program.,
 
 ## Operation
 

@@ -7,9 +7,9 @@
  *            
  * @brief     This is the generated driver types header file for the ADC driver           
  *
- * @skipline @version   PLIB Version 1.1.0-dev.4
+ * @skipline @version   PLIB Version 1.0.1
  *            
- * @skipline  Device : dsPIC33AK128MC106
+ * @skipline  Device : 
 */
 
 /*disclaimer*/

@@ -7,9 +7,9 @@
  *            
  * @brief     This is the generated driver source file for ADC1 driver        
  *
- * @skipline @version   PLIB Version 1.1.0-dev.4
+ * @skipline @version   PLIB Version 1.0.1
  *           
- * @skipline  Device : dsPIC33AK128MC106
+ * @skipline  Device : 
 */
 
 /*disclaimer*/
@@ -96,45 +96,45 @@ void ADC1_Initialize(void)
     AD1CMPSTAT = 0x0UL;
     //CH0TRG disabled; CH1TRG disabled; CH2TRG disabled; CH3TRG disabled; CH4TRG disabled; CH5TRG disabled; CH6TRG disabled; CH7TRG disabled; CH8TRG disabled; CH9TRG disabled; CH10TRG disabled; CH11TRG disabled; CH12TRG disabled; CH13TRG disabled; CH14TRG disabled; CH15TRG disabled; CH16TRG disabled; CH17TRG disabled; CH18TRG disabled; CH19TRG disabled; 
     AD1SWTRG = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH0CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH1CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH2CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH3CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH4CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH5CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH6CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH7CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH8CON = 0x0UL;
-    //TRG1SRC Software trigger initiated using ADnSWTRG register; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN9; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC Software trigger initiated using ADnSWTRG register; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN9; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH9CON = 0x4801UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH10CON = 0x0UL;
-    //TRG1SRC Software trigger initiated using ADnSWTRG register; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN11; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC Software trigger initiated using ADnSWTRG register; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN11; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH11CON = 0x5801UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH12CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH13CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH14CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH15CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH16CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH17CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH18CON = 0x0UL;
-    //TRG1SRC disabled; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC disabled; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
+    //TRG1SRC ; SAMC 0.5 TAD; NINSEL disabled; LEFT Integer; PINSEL AD1AN0; DIFF disabled; CMPMOD NONE; TRG2SRC ; EIEN disabled; TRG1POL disabled; ACCRO disabled; ACCBRST disabled; ACCNUM 4 samples, 13 bits result; MODE Single sample initiated by TRG1SRC[4:0] trigger; 
     AD1CH19CON = 0x0UL;
     //CNT 0x0; 
     AD1CH0CNT = 0x0UL;
