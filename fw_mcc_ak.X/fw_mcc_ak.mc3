@@ -1,4 +1,4 @@
-<config configName="default" projectName="fw_mcc_ak" configVersion="1.1" device="dsPIC33AK128MC106" deviceLibraryClass="com.microchip.mcc.melody.Library" coreVersion="5.8.0-2024_06_28_nightly">
+<config configName="default" projectName="fw_mcc_ak" configVersion="1.1" device="dsPIC33AK128MC106" deviceLibraryClass="com.microchip.mcc.melody.Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList">
       <package packageName="@mchp-mcc/adc-driver" version="1.0.1" contentType="MELODY">
          <modules class="java.util.ArrayList"/>
