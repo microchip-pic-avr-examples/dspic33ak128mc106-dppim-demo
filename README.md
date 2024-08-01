@@ -12,7 +12,7 @@
   - [Hardware Used](#hardware-used)  
   - [Software Used](#software-used)  
   - [Programming the Digital Power Development Plug in Module (DP-PIM)](#programming-hex-file-using-available-hex-files)  
-  - [Software Project](#available-modes-and-recompiling)  
+  - [Software Project](#software-project)  
     - [Directory Structure](#directory-structure)  
     - [Using Microchip Code Configurator](#using-microchip-code-configurator)  
   - [Using Power Board Visualizer](#using-power-board-visualizer)  
