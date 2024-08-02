@@ -44,9 +44,9 @@ Digital power development board ([DM330029](https://www.microchip.com/en-us/deve
 
 **Target Device Documentation**
 
-- [dsPIC33AK128MC108 Family](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/ProductBrief/dsPIC33AK128MC106-Family-Product-Brief-DS70005423.pdf)
-- [dsPIC33AK128MC108 Family Data Sheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/DataSheets/dsPIC33AK128MC106-Family-Data-Sheet-DS70005539.pdf)
-- [dsPIC33AK128MC108 Family Silicon Errata and Data Sheet Clarification](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU16/ProductDocuments/Errata/dsPIC33AK128MC106-Family-Silicon-Errata-and-Data-Sheet-Clarification-DS80001139.pdf)
+- [dsPIC33AK128MC106 Family](https://www.microchip.com/70005423)
+- [dsPIC33AK128MC106 Family Data Sheet](https://www.microchip.com/70005539)
+- [dsPIC33AK128MC106 Family Silicon Errata and Data Sheet Clarification](https://www.microchip.com/80001139)
 
 
 **Please always check for the latest data sheets on the respective product websites:**
