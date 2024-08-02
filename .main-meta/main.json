@@ -1,0 +1,42 @@
+{
+   "metaDataVersion":"1.0.0",
+   "category":"com.microchip.ide.project",
+   "content":{
+      "metaDataVersion":"1.3.0",
+      "name":"com.microchip.mplabx.project.dspic33ak128mc106-dppim-demo",
+      "version":"1.0.0",
+      "displayName":"dspic33ak128mc106-dppim-demo",
+      "projectName":"dspic33ak128mc106-dppim-demo",
+      "shortDescription":"This is a small demo program highlighting adc and pwm channels of the dp-pim",
+      "ide":{
+         "name":"MPLABX",
+         "semverRange":">=6.20.0"
+      },
+      "compiler":{
+         "name":"XCDSC",
+         "semverRange":"^3.1.0"
+      },
+      "dfp":{
+         "name":"dsPIC33AK-MC_DFP",
+         "semverRange":">=1.0.34"
+      },
+	  "configurator": {
+         "name": "MCC",
+         "semverRange": ">=5.7.1"
+      },
+      "device":{
+         "metaDataVersion":"1.0.0",
+         "category":"com.microchip.portal.contentRef",
+         "content":{
+            "metaDataVersion":"1.0.0",
+            "category":"com.microchip.device",
+            "name":"dsPIC33AK128MC106",
+            "versionRange":"*"
+         }
+      },
+      "keywords":[
+         "GPIO",
+         "UART"
+      ]
+   }
+}
